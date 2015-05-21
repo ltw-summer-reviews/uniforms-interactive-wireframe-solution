@@ -29,6 +29,10 @@ h1, h2, h3, h4, h5, h6,
   font-family: Coda,sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
 .list-group {
   display: block;
   padding: 0;
@@ -127,8 +131,9 @@ a {
   text-decoration: none;
 }
 
-.nav a:hover {
-  background-color: #e2e2e2;
+.nav a:hover,
+.nav-current {
+  background-color: #efefef;
 }
 
 .nav-extra {
