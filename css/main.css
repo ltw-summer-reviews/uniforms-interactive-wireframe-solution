@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+ul {
+  padding-left: 1em;
+}
+
 .list-group {
   display: block;
   padding: 0;
@@ -167,6 +171,10 @@ a {
 }
 
 @media only screen and (min-width: 38em) {
+
+  ul {
+    padding-left: 0;
+  }
 
   .nav {
     float: right;
