@@ -48,6 +48,17 @@ a {
   color: #4484c2;
 }
 
+.link-block {
+  display: block;
+
+  text-decoration: none;
+}
+
+.flex {
+  display: block;
+  width: 100%;
+}
+
 .captain {
   border-color: #586c54;
 
@@ -125,7 +136,20 @@ a {
   visibility: hidden;
 }
 
-.footer {
+.banner {
+  position: relative;
+
+  text-align: center;
+}
+
+.banner-text {
+  bottom: 1rem;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.section-box {
   border-top: 2px solid #e2e2e2;
 }
 
@@ -142,6 +166,10 @@ a {
   .nav {
     float: right;
     width: 100%;
+  }
+
+  .banner-text {
+    bottom: 3rem;
   }
 
   .copyright {
